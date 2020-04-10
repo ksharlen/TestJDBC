@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0991be29-9fd8-496f-82e9-5cd1e0f2ddde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CrudPersonTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CrudPersonTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CrudPersonTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrudPersonTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +53,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="miily@list.ru" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aLKI1Iu5GxKN1QHENvrsSmTOfj" />
@@ -88,7 +79,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Gradle.CrudPersonTableTest">
+  <component name="RunManager" selected="Gradle.TestJDBC [clean]">
     <configuration name="CrudPersonTableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,42 +207,50 @@
       <option name="project" value="LOCAL" />
       <updated>1586521514718</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="last version">
+      <created>1586522953634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522953634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first verioon" />
     <MESSAGE value="first version" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version" />
+    <MESSAGE value="last version" />
+    <option name="LAST_COMMIT_MESSAGE" value="last version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Project_Structure" timestamp="1586511242580">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="145" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1586511242580" />
-    <state x="359" y="78" key="CommitChangelistDialog2" timestamp="1586522873883">
+    <state x="359" y="78" key="CommitChangelistDialog2" timestamp="1586523147451">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="359" y="78" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1586522873883" />
-    <state width="1492" height="308" key="GridCell.Tab.0.bottom" timestamp="1586522873896">
+    <state x="359" y="78" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1586523147451" />
+    <state width="1492" height="308" key="GridCell.Tab.0.bottom" timestamp="1586523188090">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1586522873896" />
+    <state width="1492" height="308" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1586523188090" />
     <state width="1492" height="308" key="GridCell.Tab.0.bottom/0.23.1536.866@0.23.1536.866" timestamp="1586520229738" />
-    <state width="1492" height="308" key="GridCell.Tab.0.center" timestamp="1586522873895">
+    <state width="1492" height="308" key="GridCell.Tab.0.center" timestamp="1586523188089">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1586522873895" />
+    <state width="1492" height="308" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1586523188089" />
     <state width="1492" height="308" key="GridCell.Tab.0.center/0.23.1536.866@0.23.1536.866" timestamp="1586520229737" />
-    <state width="1492" height="308" key="GridCell.Tab.0.left" timestamp="1586522873895">
+    <state width="1492" height="308" key="GridCell.Tab.0.left" timestamp="1586523188088">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1586522873895" />
+    <state width="1492" height="308" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1586523188088" />
     <state width="1492" height="308" key="GridCell.Tab.0.left/0.23.1536.866@0.23.1536.866" timestamp="1586520229736" />
-    <state width="1492" height="308" key="GridCell.Tab.0.right" timestamp="1586522873895">
+    <state width="1492" height="308" key="GridCell.Tab.0.right" timestamp="1586523188089">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1586522873895" />
+    <state width="1492" height="308" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1586523188089" />
     <state width="1492" height="308" key="GridCell.Tab.0.right/0.23.1536.866@0.23.1536.866" timestamp="1586520229738" />
     <state width="1492" height="327" key="GridCell.Tab.1.bottom" timestamp="1586522640350">
       <screen x="0" y="0" width="1536" height="960" />
@@ -277,6 +276,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="256" y="61" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1586512394408" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1586523229853">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1586523229853" />
     <state x="472" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586509435469">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
