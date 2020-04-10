@@ -7,18 +7,18 @@ import org.junit.Test;
 
 import java.sql.*;
 
-public class CrudPersonTest {
+public class CrudPersonTableTest {
 	private static final String URL = "jdbc:h2:~/test;AUTO_SERVER=TRUE;Mode=Oracle";
 	private static final String USER = "sa";
 	private static final String PASS = "";
 
 	private static Connection connect;
-	private static CrudPerson crudPerson;
+	private static CrudPersonTable crudPerson;
 
 
 	@BeforeClass
-	public static void createDB() throws SQLException {
-		crudPerson = new CrudPerson();
+	public static void init() throws SQLException {
+		crudPerson = new CrudPersonTable();
 		DeleteDbFiles.execute("~", "test", true);
 		Server server = Server.createWebServer();
 		server.start();
@@ -28,12 +28,20 @@ public class CrudPersonTest {
 		statement.close();
 	}
 
+	@Before
+	public void deleteRecordsFromTable() throws SQLException {
+		Statement statement = connect.createStatement();
+
+		statement.executeUpdate("truncate table persons");
+		statement.close();
+	}
+
 	@Test
 	public void createShouldBeCreateNewRecordInTable() throws SQLException {
 		String[] testStrings = {"Alexandr", "Akinin"};
 
 		Statement statement = connect.createStatement();
-		crudPerson.createNewPerson(connect, testStrings[0], testStrings[1]);
+		crudPerson.createRecord(connect, testStrings[0], testStrings[1]);
 		ResultSet resultSet = statement.executeQuery("select * from persons where name='Alexandr' AND lastName='Akinin'");
 		//не уверен, но думаю тут нужно разделить два теста, один проверяет создание, второй корректность вставки
 		Assert.assertTrue(resultSet.next());
@@ -74,18 +82,20 @@ public class CrudPersonTest {
 
 	@Test
 	public void updateRecordShouldBeUpdateRecord() throws SQLException {
+		int id;
 		Statement statement = connect.createStatement();
 
-		ResultSet resultSet = statement.executeQuery("select * from persons");
-		System.out.println("here");
-		while (resultSet.next()) {
-			System.out.println("id: " + resultSet.getInt("id"));
-			System.out.println("name: " + resultSet.getString("name"));
-			System.out.println("lastName: " + resultSet.getString("lastName"));
-		}
-
 		statement.executeUpdate("insert into persons(name, lastName) values('Alexandr', 'Akinin')");
-		crudPerson.updateRecord(connect, 1, "Alexandr", "Akinin");
-
+		ResultSet resultSet = statement.executeQuery("select * from persons where name='Alexandr' AND lastName='Akinin'");
+		resultSet.next();
+		id = resultSet.getInt("id");
+		resultSet.close();
+		crudPerson.updateRecord(connect, id, "Sergey", "Akinin");
+		resultSet = statement.executeQuery("select * from persons where id=" + id);
+		Assert.assertTrue(resultSet.next());
+		Assert.assertEquals("Sergey", resultSet.getString("name"));
+		Assert.assertEquals("Akinin", resultSet.getString("lastName"));
+		statement.close();
+		resultSet.close();
 	}
 }

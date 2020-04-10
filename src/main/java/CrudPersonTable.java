@@ -3,29 +3,29 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class CrudPerson {
-	public void createNewPerson(Connection connection, String name, String lName) {
+public class CrudPersonTable {
+	public void createRecord(Connection connection, String name, String lastName) {
 		try (Statement statement = connection.createStatement()) {
 			statement.executeUpdate("insert into persons(name, lastName) " +
-					"values('" + name + "','" + lName + "')");
+					"values('" + name + "','" + lastName + "')");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public void deleteRecord(Connection connection, String name, String lName) {
+	public void deleteRecord(Connection connection, String name, String lastName) {
 		try (Statement statement = connection.createStatement()) {
 			statement.executeUpdate("delete from persons where " +
-					"name='" + name + "' AND lastName='" + lName + "'");
+					"name='" + name + "' AND lastName='" + lastName + "'");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public String readRecordsByLastName(Connection connection, String lName) throws SQLException {
+	public String readRecordsByLastName(Connection connection, String lastName) throws SQLException {
 		String resultString = "";
 		Statement statement = connection.createStatement();
-		ResultSet resultSet = statement.executeQuery("select * from persons where lastName='" + lName + "'");
+		ResultSet resultSet = statement.executeQuery("select * from persons where lastName='" + lastName + "'");
 		while (resultSet.next()) {
 			resultString += resultSet.getString("name") + ":";
 		}
