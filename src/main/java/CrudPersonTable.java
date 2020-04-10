@@ -32,6 +32,20 @@ public class CrudPersonTable {
 		return (resultString);
 	}
 
+	public String readRecordById(Connection connection, int id) {
+		String resultString = "";
+
+		try (Statement statement = connection.createStatement()) {
+			ResultSet resultSet = statement.executeQuery("select * from persons where id=" + id);
+			resultSet.next();
+			resultString = resultSet.getString("name") + ":" + resultSet.getString("lastName");
+			resultSet.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return (resultString);
+	}
+
 	public void updateRecord(Connection connection, int id, String newName, String newLastName) {
 		try (Statement statement = connection.createStatement()) {
 			statement.executeUpdate("update persons set name='" + newName + "', lastName='" + newLastName + "' where id=" + id);

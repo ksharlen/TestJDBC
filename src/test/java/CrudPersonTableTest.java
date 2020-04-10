@@ -1,11 +1,13 @@
 import org.h2.tools.DeleteDbFiles;
 import org.h2.tools.Server;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 import java.sql.*;
+
+/**
+ * Я пока не знаю до конца как работать с тестовыми наборами и нужно ли ловить исключения SQLException,
+ * поэтому я их просто выбрасывал выше, но в самом классе crudPersonTable конечно обрабатывал
+ */
 
 public class CrudPersonTableTest {
 	private static final String URL = "jdbc:h2:~/test;AUTO_SERVER=TRUE;Mode=Oracle";
@@ -78,6 +80,22 @@ public class CrudPersonTableTest {
 
 		String result = crudPerson.readRecordsByLastName(connect, "Akinin");
 		Assert.assertEquals("Alexandr:Ivan:Petr:", result);
+		statement.close();
+	}
+
+	@Test
+	public void readRecordByIdShouldBeReadRecord() throws SQLException {
+		Statement statement = connect.createStatement();
+		int id;
+
+		statement.executeUpdate("insert into persons(name, lastName) values ('Alexandr', 'Akinin')");
+		ResultSet resultSet = statement.executeQuery("select * from persons");
+		resultSet.next();
+		id = resultSet.getInt("id");
+		String testingString = crudPerson.readRecordById(connect, id);
+		Assert.assertEquals("Alexandr:Akinin", testingString);
+		statement.close();
+		resultSet.close();
 	}
 
 	@Test
@@ -97,5 +115,14 @@ public class CrudPersonTableTest {
 		Assert.assertEquals("Akinin", resultSet.getString("lastName"));
 		statement.close();
 		resultSet.close();
+	}
+
+	@AfterClass
+	public static void finishTests() {
+		try {
+			connect.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 }

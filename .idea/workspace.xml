@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0991be29-9fd8-496f-82e9-5cd1e0f2ddde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,19 +12,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CrudPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/CrudPersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/CrudPersonTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-CrudPersonTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CrudPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CrudPersonTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CrudPersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrudPersonTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CrudPersonTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CrudPersonTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CrudPersonTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrudPersonTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +27,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TestJDBC" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TestJDBC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TestJDBC" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,26 +149,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CrudPersonTest.readRecordsByLastNameShouldBeReadRecords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;CrudPersonTest.readRecordsByLastNameShouldBeReadRecords&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="CrudPersonTest.updateRecordShouldBeUpdateRecord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,13 +169,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestJDBC [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CrudPersonTableTest" />
+        <item itemvalue="Gradle.TestJDBC [clean]" />
         <item itemvalue="Gradle.CrudPersonTableTest.updateRecordShouldBeUpdateRecord" />
         <item itemvalue="Gradle.CrudPersonTest.updateRecordShouldBeUpdateRecord" />
         <item itemvalue="Gradle.CrudPersonTest" />
-        <item itemvalue="Gradle.CrudPersonTest.readRecordsByLastNameShouldBeReadRecords" />
       </list>
     </recent_temporary>
   </component>
@@ -189,52 +209,69 @@
       <option name="presentableId" value="Default" />
       <updated>1586509350821</updated>
     </task>
+    <task id="LOCAL-00001" summary="first version">
+      <created>1586521514718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586521514718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first verioon" />
+    <MESSAGE value="first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Project_Structure" timestamp="1586511242580">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="145" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1586511242580" />
-    <state x="359" y="78" key="CommitChangelistDialog2" timestamp="1586521463377">
+    <state x="359" y="78" key="CommitChangelistDialog2" timestamp="1586522873883">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="359" y="78" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1586521463377" />
-    <state width="1492" height="308" key="GridCell.Tab.0.bottom" timestamp="1586521463422">
+    <state x="359" y="78" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1586522873883" />
+    <state width="1492" height="308" key="GridCell.Tab.0.bottom" timestamp="1586522873896">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1586521463422" />
+    <state width="1492" height="308" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1586522873896" />
     <state width="1492" height="308" key="GridCell.Tab.0.bottom/0.23.1536.866@0.23.1536.866" timestamp="1586520229738" />
-    <state width="1492" height="308" key="GridCell.Tab.0.center" timestamp="1586521463421">
+    <state width="1492" height="308" key="GridCell.Tab.0.center" timestamp="1586522873895">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1586521463421" />
+    <state width="1492" height="308" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1586522873895" />
     <state width="1492" height="308" key="GridCell.Tab.0.center/0.23.1536.866@0.23.1536.866" timestamp="1586520229737" />
-    <state width="1492" height="308" key="GridCell.Tab.0.left" timestamp="1586521463421">
+    <state width="1492" height="308" key="GridCell.Tab.0.left" timestamp="1586522873895">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1586521463421" />
+    <state width="1492" height="308" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1586522873895" />
     <state width="1492" height="308" key="GridCell.Tab.0.left/0.23.1536.866@0.23.1536.866" timestamp="1586520229736" />
-    <state width="1492" height="308" key="GridCell.Tab.0.right" timestamp="1586521463422">
+    <state width="1492" height="308" key="GridCell.Tab.0.right" timestamp="1586522873895">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="308" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1586521463422" />
+    <state width="1492" height="308" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1586522873895" />
     <state width="1492" height="308" key="GridCell.Tab.0.right/0.23.1536.866@0.23.1536.866" timestamp="1586520229738" />
-    <state width="1492" height="281" key="GridCell.Tab.1.bottom" timestamp="1586520093265">
-      <screen x="0" y="23" width="1536" height="866" />
+    <state width="1492" height="327" key="GridCell.Tab.1.bottom" timestamp="1586522640350">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
+    <state width="1492" height="327" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1586522640350" />
     <state width="1492" height="281" key="GridCell.Tab.1.bottom/0.23.1536.866@0.23.1536.866" timestamp="1586520093265" />
-    <state width="1492" height="281" key="GridCell.Tab.1.center" timestamp="1586520093264">
-      <screen x="0" y="23" width="1536" height="866" />
+    <state width="1492" height="327" key="GridCell.Tab.1.center" timestamp="1586522640349">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
+    <state width="1492" height="327" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1586522640349" />
     <state width="1492" height="281" key="GridCell.Tab.1.center/0.23.1536.866@0.23.1536.866" timestamp="1586520093264" />
-    <state width="1492" height="281" key="GridCell.Tab.1.left" timestamp="1586520093264">
-      <screen x="0" y="23" width="1536" height="866" />
+    <state width="1492" height="327" key="GridCell.Tab.1.left" timestamp="1586522640348">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
+    <state width="1492" height="327" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1586522640348" />
     <state width="1492" height="281" key="GridCell.Tab.1.left/0.23.1536.866@0.23.1536.866" timestamp="1586520093264" />
-    <state width="1492" height="281" key="GridCell.Tab.1.right" timestamp="1586520093264">
-      <screen x="0" y="23" width="1536" height="866" />
+    <state width="1492" height="327" key="GridCell.Tab.1.right" timestamp="1586522640349">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
+    <state width="1492" height="327" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1586522640349" />
     <state width="1492" height="281" key="GridCell.Tab.1.right/0.23.1536.866@0.23.1536.866" timestamp="1586520093264" />
     <state x="256" y="61" key="SettingsEditor" timestamp="1586512394408">
       <screen x="0" y="0" width="1536" height="960" />
@@ -244,9 +281,9 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="472" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.960@0.0.1536.960" timestamp="1586509435469" />
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1586518524030">
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1586522212877">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1586518524030" />
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1586522212877" />
   </component>
 </project>
